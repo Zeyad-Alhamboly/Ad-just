@@ -8,7 +8,7 @@ import {
 import "./Contact.css";
 export default function Contact() {
   return (
-    <div className="contact-container text-white mt-10 container m-auto">
+    <div className="contact-container text-white mt-10 container m-auto px-4">
       <div className="w-fit relative m-auto">
         <div className="light-div6"></div>
         <h1 className="text-7xl text-center mb-2 font-semibold uppercase">
@@ -20,7 +20,7 @@ export default function Contact() {
         feedback to drive <br /> continuous improvement.
       </p>
 
-      <div className="section1 grid grid-cols-2 gap-4 rounded-lg px-5">
+      <div className="section1 grid grid-rows-2 lg:grid-cols-2 gap-4 rounded-lg px-5 ">
         <div className=" flex gap-5   flex-col p-5 ">
           <div className="flex gap-6 items-center ">
             <img src="phone.png" width={40} height={40} alt="" />
@@ -50,8 +50,8 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="section2 rounded-lg mt-20 max-w-5xl m-auto h-48 flex flex-col items-center justify-center text-black">
-        <p className="text-3xl mb-2 font-semibold">Ready to contact you!</p>
+      <div className="section2 rounded-lg mt-20 max-w-5xl m-auto h-48 flex flex-col items-center p-5 justify-center text-black">
+        <p className="text-3xl mb-2 font-semibold text-center ">Ready to contact you!</p>
         <p className="mb-2">
           Leave your email and we will contact you within 24 hours
         </p>

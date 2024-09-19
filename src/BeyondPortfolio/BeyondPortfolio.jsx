@@ -2,11 +2,11 @@ import React from "react";
 import "./BeyondPortfolio.css";
 export default function BeyondPortfolio() {
   return (
-    <div className=" container px-12 py-4 text-white flex gap-7 relative">
-      <div className="light-div1"></div>
-      <div className="light-div2"></div>
+    <div className="container mx-auto px-4 py-4 text-white flex flex-col lg:flex-row gap-7 relative">
+      <div className="light-div1 lg:absolute lg:top-0 lg:left-0 lg:w-full lg:h-full lg:z-0"></div>
+      <div className="light-div2 lg:absolute lg:top-0 lg:right-0 lg:w-full lg:h-full lg:z-0"></div>
 
-      <div className="w-1/3">
+      <div className="w-full lg:w-1/3">
         <p className="kosomk">Beyond Portfolio</p>
         <h1 className="text-6xl mt-3">
           AD-JUST{" "}
@@ -14,7 +14,7 @@ export default function BeyondPortfolio() {
             IN <br /> 10 SEC
           </strong>
         </h1>
-        <div className="company-overview shadow border px-12 py-8 rounded-lg w-72 relative overflow-hidden">
+        <div className="company-overview mt-4 p-5 shadow border rounded-lg w-full lg:w-72 relative overflow-hidden">
           <p className=" mb-2 flex items-center gap-2">
             <img src="path.png" alt="" /> Company Overview
           </p>
@@ -25,13 +25,13 @@ export default function BeyondPortfolio() {
             has proven to have experience and includes many clients in all
             fields
           </p>
-          <div className="light-div3"></div>
+          <div className="light-div3 absolute top-0 left-0 w-full h-full z-0"></div>
         </div>
       </div>
 
-      <div className="w-1/3">
-        <div className="service border border-gray-400 rounded-lg px-8 py-4 w-80 relative overflow-hidden">
-          <div className="light-div4"></div>
+      <div className="w-full lg:w-1/3">
+        <div className="service p-5 border border-gray-400 rounded-lg w-full lg:w-80 relative overflow-hidden">
+          <div className="light-div4 absolute top-0 left-0 w-full h-full z-0"></div>
           <p className=" mb-2 flex items-center gap-2">
             <img src="path.png" alt="" /> Services
           </p>
@@ -91,7 +91,7 @@ export default function BeyondPortfolio() {
         </div>
       </div>
 
-      <div className="w-1/3">
+      <div className="w-full lg:w-1/3">
         <div>
           <iframe
             className="rounded-lg"
@@ -107,7 +107,7 @@ export default function BeyondPortfolio() {
           </iframe>
         </div>
         <div className="important-clients border border-gray-400 rounded-lg mt-4 px-6 py-4 relative overflow-hidden">
-          <div className="light-div5"></div>
+          <div className="light-div5 absolute top-0 left-0 w-full h-full z-0"></div>
 
           <p className=" mb-2 flex items-center gap-2">
             <img src="path.png" alt="" /> Most Important Clients
@@ -134,3 +134,4 @@ export default function BeyondPortfolio() {
     </div>
   );
 }
+

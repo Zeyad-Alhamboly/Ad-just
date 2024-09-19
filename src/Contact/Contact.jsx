@@ -20,7 +20,7 @@ export default function Contact() {
         feedback to drive <br /> continuous improvement.
       </p>
 
-      <div className="section1 grid grid-rows-2 lg:grid-cols-2 gap-4 rounded-lg px-5 ">
+      <div className="section1 grid lg:grid-cols-2 gap-4 rounded-lg px-5 ">
         <div className=" flex gap-5   flex-col p-5 ">
           <div className="flex gap-6 items-center ">
             <img src="phone.png" width={40} height={40} alt="" />

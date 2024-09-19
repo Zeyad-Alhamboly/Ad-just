@@ -1,0 +1,97 @@
+.feedbacks {
+  background: linear-gradient(
+    99.7deg,
+    #c6fca6 0.38%,
+    rgba(167, 252, 238, 0.74) 98.77%
+  );
+}
+.client-name {
+  background: linear-gradient(
+    99.7deg,
+    #c6fca6 0.38%,
+    rgba(167, 252, 238, 0.74) 98.77%
+  );
+}
+.light-div1 {
+  top: -132px;
+  left: -1081px;
+  position: absolute;
+  width: 1609px;
+  height: 272px;
+  z-index: -99;
+  background: radial-gradient(
+      69.09% 95.18% at 41.72% 44.56%,
+      #007872 0%,
+      #0b2826 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  opacity: 84%;
+  filter: blur(130px);
+}
+.light-div2 {
+  top: -132px;
+  right: -1081px;
+  position: absolute;
+  width: 1609px;
+  height: 272px;
+  z-index: -99;
+  background: radial-gradient(
+      69.09% 95.18% at 41.72% 44.56%,
+      #007872 0%,
+      #0b2826 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  opacity: 84%;
+  filter: blur(221px);
+}
+.light-div3 {
+  position: absolute;
+  background: linear-gradient(
+    99.7deg,
+    #c6fca6 0.38%,
+    rgba(167, 252, 238, 0.74) 98.77%
+  );
+  width: 150px;
+  height: 75px;
+  z-index: 25;
+  opacity: 49%;
+  filter: blur(40px);
+  border-radius: 25px;
+  bottom: -50px;
+  left: 61px;
+}
+
+.light-div4 {
+  position: absolute;
+  background: linear-gradient(
+    99.7deg,
+    #c6fca6 0.38%,
+    rgba(167, 252, 238, 0.74) 98.77%
+  );
+  width: 150px;
+  height: 75px;
+  z-index: -222;
+  opacity: 75%;
+  filter: blur(40px);
+  border-radius: 25px;
+  top: -26px;
+  left: -60px;
+}
+
+.light-div5 {
+  position: absolute;
+  background: linear-gradient(
+    99.7deg,
+    #1a4951 0.38%,
+    rgba(167, 252, 238, 0.74) 98.77%
+  );
+
+  width: 150px;
+  height: 75px;
+  z-index: -222;
+  opacity: 75%;
+  filter: blur(40px);
+  border-radius: 25px;
+  top: -26px;
+  left: -60px;
+}

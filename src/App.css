@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+body {
+  font-family: "Tajawal", sans-serif;
+  background: rgba(3, 5, 13, 1);
+  font-weight: normal;
+}
+
+.app {
+  overflow: hidden;
+}
+
+.beyond-portfolio {
+}
+
+.kosomk {
+  text-transform: uppercase;
+  background: #173c43;
+  background: linear-gradient(to right, #173c43, #a7fcee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 24px;
+}

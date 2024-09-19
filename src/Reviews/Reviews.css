@@ -1,0 +1,12 @@
+.light-div9 {
+    position: absolute;
+    background: linear-gradient(99.7deg, #c6fca6 0.38%, rgba(167, 252, 238, 0.74) 98.77%);
+    width: 150px;
+    height: 70px;
+    z-index: 25;
+    opacity: 49%;
+    filter: blur(40px);
+    border-radius: 25px;
+    bottom: -50px;
+    left: 100px;
+}

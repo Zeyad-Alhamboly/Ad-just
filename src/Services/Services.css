@@ -1,0 +1,62 @@
+.service-card {
+  background: rgba(131, 130, 138, 0.2);
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.slick-dots li {
+  background: #23b0b5;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+
+.light-div6 {
+  position: absolute;
+  background: radial-gradient(
+      69.09% 95.18% at 41.72% 44.56%,
+      #394737 0%,
+      #0b2826 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  width: 867px;
+  height: 149px;
+  z-index: -222;
+  opacity: 84%;
+  filter: blur(77px);
+  border-radius: 25px;
+  top: -26px;
+  left: -18rem;
+}
+
+
+.light-div7 {
+  top: 19rem;
+  right: -93rem;
+  position: absolute;
+  width: 1609px;
+  height: 272px;
+  z-index: -99;
+  background: radial-gradient(69.09% 95.18% at 41.72% 44.56%, #007872 0%, #0b2826 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  opacity: 84%;
+  filter: blur(166px);
+} 
+.light-div8 {
+  top: 27rem;
+  left: -93rem;
+  position: absolute;
+  width: 1609px;
+  height: 272px;
+  z-index: -99;
+  background: radial-gradient(69.09% 95.18% at 41.72% 44.56%, #007872 0%, #0b2826 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  opacity: 84%;
+  filter: blur(166px);
+} 
